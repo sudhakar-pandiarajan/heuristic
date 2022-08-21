@@ -12,7 +12,7 @@ In this demo, the spoken content of the speaker 1, 2, and 3 were converted to th
 ![Verification](https://github.com/sudhakar-pandiarajan/heuristic/blob/main/speaker_style_verify.png)
 
 ## Heuristic Similarity detection
-In this stage, the heuristic cost based similarity measure was used to detect the  spoken query content in the document. The below plot demonstrate the similarity and heuristic similarity significance the region
+In this stage, the heuristic cost based similarity measure was used to detect the  spoken query content in the document. The below plot demonstrate the similarity and heuristic similarity exhibited relevant to the ground truth region.
 ![Heuristic Similarity](https://github.com/sudhakar-pandiarajan/heuristic/blob/main/heuristic_similarity_match.png)
 
 ## Disclaimer
@@ -30,10 +30,9 @@ Use code at own risk.
 6.  shennong
 7.  librosa
 8.  sklearn
-9.  itertools
-10. spy
-11. som
-12. scipy
+9.  torch
+10. torchaudio
+11. scipy
 
 
 ## Reference
