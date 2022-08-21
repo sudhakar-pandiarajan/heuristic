@@ -38,7 +38,7 @@ Use code at own risk.
 
 ## Reference
 ```
-@article{sudhakar2022ake,
+@article{sudhakar2022heuristic,
   title={Query-by-Example Spoken Term Detection for Zero-Resource Languages Using Heuristic Search},
   author={Sudhakar P, Sreenivasa Rao K, and Pabitra Mitra},
   booktitle={ACM Trans. Asian Low-Resour. Lang. Inf. Process},
