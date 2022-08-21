@@ -7,13 +7,13 @@ Python implementation of Query-by-Example Spoken Term Detection Using Heuristic 
 
 ## Speaker Independent Spoken Content Representation
 In this stage, the acoustic feature representation of the speech signal was converted to a single target speaker using our voice conversion model. 
-![alt text](https://github.com/sudhakar-pandiarajan/heuristic/speaker_style_convert.png)
+![Speaker Style Conversion](https://github.com/sudhakar-pandiarajan/heuristic/blob/main/speaker_style_convert.png)
 In this demo, the spoken content of the speaker 1, 2, and 3 were converted to the speaker 2. Further, the similarity realisation before and after conversion was verfied using the plot below
-![alt text](https://github.com/sudhakar-pandiarajan/heuristic/speaker_style_verify.png)
+![Verification](https://github.com/sudhakar-pandiarajan/heuristic/blob/main/speaker_style_verify.png)
 
 ## Heuristic Similarity detection
 In this stage, the heuristic cost based similarity measure was used to detect the  spoken query content in the document. The below plot demonstrate the similarity and heuristic similarity significance the region
-![alt text](https://github.com/sudhakar-pandiarajan/heuristic/heuristic_similarity_match.png)
+![Heuristic Similarity](https://github.com/sudhakar-pandiarajan/heuristic/blob/main/heuristic_similarity_match.png)
 
 ## Disclaimer
 Use code at own risk.
