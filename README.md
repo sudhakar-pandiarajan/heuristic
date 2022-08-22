@@ -1,18 +1,18 @@
 # Query-by-Example Spoken Term Detection for Zero-Resource Languages Using Heuristic Search
 
 ## Overview
-Python implementation of Query-by-Example Spoken Term Detection Using Heuristic Search. In our approach, the STD task was accomplished in two stages. 
+Python implementation of Query-by-Example Spoken Term Detection Using Heuristic Search. In our approach, the STD task was accomplished in two stages: 
 1. Speaker Independent Spoken Content Representation
-2. Spoken Term Detection 
+2. Spoken Term Detection using heuristic search
 
 ## Speaker Independent Spoken Content Representation
 In this stage, the acoustic feature representation of the speech signal was converted to a single target speaker using our voice conversion model. 
 ![Speaker Style Conversion](https://github.com/sudhakar-pandiarajan/heuristic/blob/main/speaker_style_convert.png)
-In this demo, the spoken content of the speaker 1, 2, and 3 were converted to the speaker 2. Further, the similarity realisation before and after conversion was verfied using the plot below
+In this demo, the spoken content of the speaker 1, 2, and 3 is converted to speaker 2. Further, the similarity realisation before and after conversion was verfied using the correlation values. (see below plot)
 ![Verification](https://github.com/sudhakar-pandiarajan/heuristic/blob/main/speaker_style_verify.png)
 
 ## Heuristic Similarity detection
-In this stage, the heuristic cost based similarity measure was used to detect the  spoken query content in the document. The below plot demonstrate the similarity and heuristic similarity exhibited relevant to the ground truth region.
+In this stage, the heuristic cost based similarity measure was used to detect the spoken query content in the document. The below plot demonstrate the similarity matrix and the heuristic similarity exhibited between a spoken query and document. The peak values in the heuristic similarity indicates the region of similarity. The lines in red color represents the ground truth region.
 ![Heuristic Similarity](https://github.com/sudhakar-pandiarajan/heuristic/blob/main/heuristic_similarity_match.png)
 
 ## Disclaimer
