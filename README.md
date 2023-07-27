@@ -37,10 +37,15 @@ Use code at own risk.
 
 ## Reference
 ```
-@article{sudhakar2023heuristic,
-  title={},
-  author={Sudhakar P, Sreenivasa Rao K, and Pabitra Mitra},
-  booktitle={},
-  year={2023},
-  pages={xx-xx},
+@article{sudhakarqbe2023,
+author = {P, Sudhakar and K, Sreenivasa Rao and Mitra, Pabitra},
+title = {Query-by-Example Spoken Term Detection for Zero-Resource Languages Using Heuristic Search},
+year = {2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {2375-4699},
+url = {https://doi.org/10.1145/3609505},
+doi = {10.1145/3609505},
+journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},
+month = {jul}
 }
